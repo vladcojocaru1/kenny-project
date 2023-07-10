@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Great-Vibes;
+    src: url(C:\Users\Vlad\helloworld\kenny-project\fonts\GreatVibes-Regular.ttf);
+}
+
+
+
+
+h1 {
+    font-family: Great-Vibes;
+    font-size:4rem;
+}
