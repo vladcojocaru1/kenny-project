@@ -21,42 +21,61 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: black;
+    /*background-color: #28282B;*/
 }
 
 body {
     display:flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../backgrounds/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header-container {
-    height: 15rem;
+    height: 17rem;
     display:flex;
-    background-color: black;
+    /*background-color: #28282B;*/
     justify-content: center;
     align-items: center;
 }
 
 .header {
-    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.title h1 {
-    font-size: 5rem;
-    text-align: center;
-    margin: 2rem 0;
+.title {
+    border: 3px solid white;
+    border-radius: 18px;
+    background-color: #100c08;
+
+    margin-bottom: 2rem;
+    padding: 1rem 13rem 1rem 13rem;
 }
-h1 #franklin {
+
+#franklin, 
+#decorators {
+    font-size: 5rem;
+}
+
+#franklin {
     font-family: courgette;
     color: gold;
+
 }
-h1 #decorators {
+
+#decorators {
     font-family: dosis;
     color: white;
+
 }
 
 .navbar ul {
+    width: 1500px;
     display: flex;
     justify-content: space-around;
     color: white;
@@ -76,7 +95,8 @@ h1 #decorators {
     flex-direction: column;
     align-items: center;
     color: white;
-    background-color: black;
+    /*background-color: #28282B;*/
+    
 }
 
 .announcement-container {
@@ -90,7 +110,7 @@ h1 #decorators {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
+    width: 900px;
     
 }
 
@@ -99,6 +119,8 @@ h1 #decorators {
     width: inherit;
 
     border: 5px solid white;
+    border-radius: 15px;
+    background-color: #100c08;
 
     font-size: 3rem;
     font-family: courgette;
@@ -107,7 +129,6 @@ h1 #decorators {
 
     padding: 1rem;
     margin: 1rem;
-    border-radius: 15px;
 }
 
 .contact-numbers {
@@ -115,6 +136,13 @@ h1 #decorators {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #100c08;
+
+    padding: .33rem 1.5rem;
+    margin: .33rem;
 }
 
 .number,
@@ -138,6 +166,14 @@ h1 #decorators {
 
 .schedule-hours {
     text-align: center;
+    width: 800px;
+
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: #100c08;
+
+    padding: .33rem 1.5rem;
+    margin: .33rem;
 }
 
 .day {
@@ -201,8 +237,7 @@ h1 #decorators {
 }
 .gallery-header > p {
     
-    
-    margin-top: -1.5rem;
+    margin-top: -1.7rem;
     margin-bottom: 1rem;
     font-size: 2rem;
     font-family: dosis;
@@ -233,6 +268,10 @@ h1 #decorators {
     margin-bottom: 5px;
 }
 
+footer {
+    height: 100px;
+
+}
 
 /*
 first draft
