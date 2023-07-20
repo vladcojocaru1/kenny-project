@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franklin Decorators</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
 </head>
 <!--
 <body>
@@ -59,7 +59,7 @@
                     <li>Store Hours</li>
                     <li>Gallery</li>
                     <li>Poems</li>
-                    <li>Quote Request</li>
+                    <li>Quote</li>
                     <li>Completed Works</li>
                 </ul>
             </div>
@@ -68,15 +68,20 @@
 
     <div class="article">
         <div class="announcement-container">
+
             <div class="contact-container">
                 <div class="contact-header">
                     <h2>Contact</h2>
                 </div>
                 <div class="contact-numbers">
-                    <p class="number">(516) ???-????</p>
-                    <p class="location">shop</p>
-                    <p class="number">(516) 697-8632</p>
-                    <p class="location">text for callback only</p>
+                    <div>
+                        <p class="number">(516) 123-4567</p>
+                        <p class="location">shop</p>
+                    </div>
+                    <div>
+                        <p class="number">(516) 697-8632</p>
+                        <p class="location">text for callback only</p>
+                    </div>
                 </div>
                 <!--
                 <div class="contact-disclaimer">
@@ -94,8 +99,21 @@
                 <div class="schedule-hours">
                     <p class="day">Saturday</p>
                     <p class="hours">10:00 - 12:00</p>
-                    <p class="hours-disclaimer" id="hours-disclaimer">There are no set hours, except for the listed Saturday times. I am available throughout the
-                        week during normal buisness hours if we coordinate over a phonecall.</p>
+                    <p class="hours-disclaimer" id="disclaimer1">
+                        There are
+                        <span>no set hours, except for the
+                            listed Saturday times
+                        </span>.
+                    </p>
+                    <p class="hours-disclaimer" id="disclaimer2">
+                        <span>
+                            I am available throughout the week
+                        </span>
+                        during normal buisness hours
+                        <span>
+                            if we coordinate over a phonecall
+                        </span>.
+                    </p>
                 </div>
             </div>
 
@@ -105,18 +123,28 @@
             <div class="gallery-container">
                 <div class="gallery-header">
                     <h2>Gallery</h2>
+                    <p>Hover over the images below to see the reupholstered pieces.</p>
                 </div>
 
                 <div class="images-container">
-                    <img src="./images/pair1a.jpg">
-                    <img src="./images/pair2a.jpg">
-                    <img src="./images/pair3a.jpg">
-                    <img src="./images/pair4a.jpg">
-                    <img src="./images/pair5a.jpg">
-                    <img src="./images/pair6a.jpg">
+                    <div class="img-set1">
+                        <img src="./images/pair1a.jpg">
+                        <img src="./images/pair2a.jpg">
+                        <img src="./images/pair3a.jpg">
+                        <img src="./images/pair4a.jpg">
+                    </div>
+                    <div class="img-set2">
+                        <img src="./images/pair5a.jpg">
+                        <img src="./images/pair6a.jpg">
+                    </div>
                 </div>
             </div>
         </div> <!--end display-->
 </body>
+
+<footer>
+    <p>Franklin Decorators</p>
+    <p>Insurance </p>
+</footer>
 
 </html>
