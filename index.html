@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franklin Decorators</title>
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
-
+<!--
 <body>
     <div class="header">
-        <h1>Franklin Decorators</h1>
-        <p class="info">234 Franklin Ave, Franklin Square, NY</p>
-        <p class="info">?????(516) 354-2418</p>
-        <p class="info">????? cellphone number</p>
-        <p class="info">????? email</p>
+        <div class="name-container">
+            <h1 id="name">Franklin Decorators</h1>
+        </div>
+        <div class="info-holder">
+            <ul class="info">
+                <li>234 Franklin Ave, Franklin Square, NY</li>
+                <li>?????(516) 354-2418</li>
+                <li>????? cellphone number</li>
+                <li>????? email</li>
+        </div>
+
         <ul class="navbar"> 
             <li>Home</li>
             <li>Gallery</li>
@@ -31,4 +38,85 @@
 
     </div>
 </body>
+-->
+
+<body>
+    <div class="header-container">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    <span id="franklin">
+                        Franklin
+                    </span>
+                    <span id="decorators">
+                        decorators
+                    </span>
+                </h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>Contact</li>
+                    <li>Store Hours</li>
+                    <li>Gallery</li>
+                    <li>Poems</li>
+                    <li>Quote Request</li>
+                    <li>Completed Works</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="article">
+        <div class="announcement-container">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>Contact</h2>
+                </div>
+                <div class="contact-numbers">
+                    <p class="number">(516) ???-????</p>
+                    <p class="location">shop</p>
+                    <p class="number">(516) 697-8632</p>
+                    <p class="location">text for callback only</p>
+                </div>
+                <!--
+                <div class="contact-disclaimer">
+                    <p id="quote">If you would like an estimate for a job, take pictures of the project and write a
+                        brief description detailing what you'd like to be done or what the issue is. <strong>Use the
+                            link to the right.</strong></p>
+                </div>
+                -->
+            </div>
+
+            <div class="schedule-container">
+                <div class="schedule-header">
+                    <h2>Store Hours</h2>
+                </div>
+                <div class="schedule-hours">
+                    <p class="day">Saturday</p>
+                    <p class="hours">10:00 - 12:00</p>
+                    <p class="hours-disclaimer" id="hours-disclaimer">There are no set hours, except for the listed Saturday times. I am available throughout the
+                        week during normal buisness hours if we coordinate over a phonecall.</p>
+                </div>
+            </div>
+
+        </div> <!-- end announcement-->
+
+        <div class="display-container">
+            <div class="gallery-container">
+                <div class="gallery-header">
+                    <h2>Gallery</h2>
+                </div>
+
+                <div class="images-container">
+                    <img src="./images/pair1a.jpg">
+                    <img src="./images/pair2a.jpg">
+                    <img src="./images/pair3a.jpg">
+                    <img src="./images/pair4a.jpg">
+                    <img src="./images/pair5a.jpg">
+                    <img src="./images/pair6a.jpg">
+                </div>
+            </div>
+        </div> <!--end display-->
+</body>
+
 </html>

@@ -1,12 +1,195 @@
 @font-face {
-    font-family: Great-Vibes;
-    src: url(C:\Users\Vlad\helloworld\kenny-project\fonts\GreatVibes-Regular.ttf);
+    font-family:'greatvibes';
+    src: url(../fonts/GreatVibes-Regular.ttf);
+    font-style:normal;
+    font-weight:400;
+}
+@font-face {
+    font-family:'courgette';
+    src: url(../fonts/Courgette-Regular.ttf);
+    font-style:normal;
+    font-weight:400;
+}
+@font-face {
+    font-family:'dosis';
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+    font-style:normal;
+    font-weight:400;
 }
 
-
-
-
-h1 {
-    font-family: Great-Vibes;
-    font-size:4rem;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
 }
+
+.header-container {
+    height: 15rem;
+    display:flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 1500px;
+}
+
+.title h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+h1 #franklin {
+    font-family: courgette;
+    color: gold;
+}
+h1 #decorators {
+    font-family: dosis;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.navbar ul li {
+    border-bottom: 3px solid gold;
+}
+
+.article {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.announcement-container {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.announcement-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header > h2,
+.schedule-header > h2,
+.gallery-header > h2 {
+    border: 5px solid white;
+
+    font-size: 3rem;
+    text-align: center;
+
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+}
+
+.number,
+.location {
+    text-align: center;
+
+}
+
+.number {
+    font-size: 2.5rem;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.location {
+    font-family: courgette;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: gold;
+}
+
+.schedule-hours {
+    text-align: center;
+}
+
+.day {
+    font-size: 3rem;
+    font-family: courgette;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.hours {
+    font-size: 2.5rem;
+    font-family:monospace;
+    font-weight: bold;
+}
+#hours-disclaimer {
+    font-size: 1.33rem;
+    font-family: courgette;
+    color: gold;
+    align-self: flex-end;
+    width:420px;
+    text-align:left;
+    margin-left: 7rem;
+}
+
+.display-container {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.display-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+first draft
+
+.header {
+    height: 20vh;
+    width: auto;
+    background-color:#1a1918;
+    display:flexbox;
+    align-items: center;
+}
+
+.name-container {
+    width: 1200px;
+    margin:0;
+    border: 5px solid gold;
+}
+
+#name {
+    font-family: greatvibes;
+    font-weight:400;
+    font-size:8rem;
+    color:gold;
+    text-align:center;
+    vertical-align: text-bottom;
+}
+
+.info-holder {
+    margin:0;
+    background-color:#1a1918;
+}
+
+.info {
+    list-style-type: none;
+}
+
+.info li {
+    color: gold;
+    padding-top: .3rem;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+*/
